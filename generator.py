@@ -3,7 +3,7 @@ from docxtpl import DocxTemplate
 from utils import format_amount, number_to_words
 
 TEMPLATES_DIR = "templates"
-OUTPUT_DIR = "data"
+OUTPUT_DIR = "generated_docs"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
